@@ -203,7 +203,7 @@ int checkVizinhos(struct Coord c) {
     if (grid[c.y][c.x-1] == 1)
       ++live_vizinhos;
   }
-  if (c.x + 1 < size){ 			  //x+1,y
+  if (c.x + 1 < size){                    //x+1,y
     if (grid[c.y][c.x+1] == 1)
       ++live_vizinhos;
   }
